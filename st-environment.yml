@@ -1,0 +1,21 @@
+name: streamlit
+
+channels:
+  - plotly
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8.5
+  - matplotlib=3.5.0
+  - notebook=6.4.6
+  - pandas=1.3.4
+  - plotly=5.4.0
+  - scikit-learn=0.23.2
+  - pip=21.2.4
+
+  - pip:
+    - streamlit==1.12.2
+
+prefix: /opt/anaconda3/envs/streamlit
